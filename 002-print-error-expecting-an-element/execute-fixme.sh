@@ -1,0 +1,1 @@
+../execute-kotlin-script.sh fixme.kts HELLO_WORLD
