@@ -2,4 +2,4 @@
 fun fixme(Int: a) {
     println("Param a equals " + a)
 }
-fixme(1);
+fixme(1)
