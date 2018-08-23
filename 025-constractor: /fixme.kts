@@ -1,5 +1,7 @@
-//error: unresolved reference: new  
-class Test(val test: Int)
+//error: primary constructor call expected constructor(val test: Int)
+class Test() {
+    constructor(val test: Int)
+}
 
-val a = new Test (1);
+val a = Test(1)
 println("a equals ${a.test}")

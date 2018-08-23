@@ -4,6 +4,7 @@ interface TimeOfOperation {
 }
 
 enum class Home(var min: Int) : TimeOfOperation {
+
     RELAX(59), CLEAN(58)
 
     override fun getTime() = min
