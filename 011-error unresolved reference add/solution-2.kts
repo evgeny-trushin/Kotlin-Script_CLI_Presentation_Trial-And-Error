@@ -1,5 +1,7 @@
 //error: unresolved reference: add
-val a = List<Int>(9, 11)
+val a = ArrayList<Int>()
+a.add(9)
+a.add(11)
 a.add(14)
 println("a[0] " + a[0])
 println("a[1] " + a[1])

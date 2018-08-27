@@ -1,0 +1,1 @@
+../execute-kotlin-script.sh solution-1.kts HELLO_WORLD
