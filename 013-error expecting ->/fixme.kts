@@ -1,8 +1,12 @@
 //error: expecting '->'
-if (args.size > 0) {
-    println("Args: ${when (args.get(0)) {"HELLO_WORLD" -> "|Hello World|"
-        else "Hi!"
-    }}")
+if (args.isNotEmpty()) {
+    println("Args: " +
+            "${
+            when (args[0]) {
+                "HELLO_WORLD" -> "Hello"
+                else "Hi!"
+            }
+            }")
 } else {
     println("Args are empty")
 }
