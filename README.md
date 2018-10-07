@@ -1,1 +1,1 @@
-https://github.com/evgeny-trushin/Kotlin_trial-and-error_learning/blob/master/Preview%20-%20Learning%20Kotlin%20a%20trial-and-error%20approach.pdf
+https://github.com/evgeny-trushin/Kotlin-Script_CLI_Presentation_Trial-And-Error/blob/master/Learning%20Kotlin%20-%20a%20trial-and-error%20approach.pdf
