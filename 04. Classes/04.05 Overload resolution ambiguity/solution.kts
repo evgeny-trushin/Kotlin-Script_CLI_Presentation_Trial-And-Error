@@ -1,6 +1,6 @@
 //error: overload resolution ambiguity: public constructor Info(nameA: String) defined in Fixme.Info
 data class Info(val nameB: String) {
-    constructor(nameA: String) : this(nameB = nameA)
+    constructor(nameA: Any) : this(nameA as String)
 }
 
-println("a equals ${Info(nameA = "nameA").nameB}")
+println(Info(nameA = "nameA").nameB)
